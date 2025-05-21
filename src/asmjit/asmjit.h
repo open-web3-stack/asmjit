@@ -25,9 +25,7 @@
 #define ASMJIT_ASMJIT_H_INCLUDED
 
 #include "./core.h"
-
-#ifndef ASMJIT_NO_X86
-  #include "./x86.h"
-#endif
+#include "./x86.h"
+#include "./a64.h"
 
 #endif // ASMJIT_ASMJIT_H_INCLUDED
