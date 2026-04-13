@@ -1,0 +1,6 @@
+module AsmJitLib {
+    umbrella "../asmjit"
+    exclude header "../asmjit/asmjit.h"
+    export *
+    module * { export * }
+}
